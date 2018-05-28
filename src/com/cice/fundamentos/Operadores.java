@@ -40,14 +40,28 @@ public class Operadores {
         //Operadores de asignacion
         System.out.println("Operadores asignacion: ");
         int b = 5;
-        b++; // b = b+1
+        //b++; // b = b+1
         System.out.println(b++);
-        b--; // b = b-1
+        //b--; // b = b-1
         System.out.println(++b);
         b*=2; // b = b*2
         System.out.println(b);
         b/=5; // b = b/5
         System.out.println(b);
+        b+=5;
+        System.out.println(b);
+        b%=5; //b/5 resto
+        System.out.println(b);
+
+        b=5; //101
+        b<<=1; //1010 añade cero derecha
+        System.out.println(b);
+
+        b=7; //111
+        b>>=1; //011 elimina uno a la derecha
+        System.out.println(b);
+
+
 
     }
 }
