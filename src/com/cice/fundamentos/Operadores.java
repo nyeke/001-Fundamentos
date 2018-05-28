@@ -30,7 +30,7 @@ public class Operadores {
         System.out.println(r1 || r2);
         System.out.println(r2 && r3);
         System.out.println(!r4);
-        System.out.println(r5 ^ r6);
+        System.out.println(r5 ^ r4);
 
         // Operador Unario
         System.out.println("Operador unario: ");
