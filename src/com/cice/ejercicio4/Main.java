@@ -15,7 +15,7 @@ public class Main {
             factorial*=i;
         }
 
-        System.out.println("El factorial de " + valor + " es: " + factorial);
+        System.out.println("El factorial de " + valor + "  es: " + factorial);
 
 
     }
